@@ -40,6 +40,8 @@ cd UniqueInt/
 **Run the executable file and change the permissions**
 
  python uniquelnt
+
+ 
 **to install psutil it is used to measure memory usage before and after processing each file**
 
  pip install psutil
