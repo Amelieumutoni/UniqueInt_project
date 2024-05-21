@@ -2,14 +2,14 @@
 
 **UNIQUELNT PROJECT**
 
-Is a program i created using python which  read a list of integers
-from an input file and Generate an output file having a list of unique integers when present in the input file 
+This is a  program i created using python which  read a list of integers from input files and generate output files containing unique integers.The project handles various input formats and edge cases, ensuring robustness and reliability
+
 
 **features of the project**
 
 1.Processes text files containing integer values.
 
-2.Identifies unique integers within the range of -1023 to 1023.
+2.Outputs unique integers sorted in increasing order.
 
 3.Outputs sorted unique integers to a new file.
 
@@ -17,7 +17,17 @@ from an input file and Generate an output file having a list of unique integers 
 
 5.Provides basic error handling for invalid input lines and out-of-range integers.
 
-6.Running the Script Execute the script using the following command:
+6.Running the Script Execute the script using the following command
+
+**Edge Case Handling**
+
+Lines with no input or only whitespace are skipped.
+
+Lines with non-integer values are skipped.
+
+Lines with two integers separated by whitespace are skipped.
+
+
 
 **Clone the repository**
 
